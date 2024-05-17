@@ -1,0 +1,53 @@
+.cat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-back {
+    font-size: 28px;
+    background-color: white;
+    border: none;
+    width: 7rem;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.btn-back:hover {
+    cursor: pointer;
+    background-color: #cccecf;
+}
+
+.photo-cat {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+
+.btn-like-views {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+
+.btn-like-page, .btn-views-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 0.5rem;
+    border-radius: 10px;
+}
+
+.btn-like-page:hover {
+    cursor: pointer;
+    background-color: #cccecf;
+}
